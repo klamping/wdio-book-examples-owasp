@@ -1,0 +1,22 @@
+{
+  "name": "1-site-navigation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.8.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.8.3",
+    "@wdio/mocha-framework": "^5.8.1",
+    "@wdio/selenium-standalone-service": "^5.8.0",
+    "@wdio/spec-reporter": "^5.8.0",
+    "@wdio/sync": "^5.8.1"
+  }
+}

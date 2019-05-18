@@ -6,7 +6,7 @@ describe('Main Navigation', function () {
         browser.url('./');
 
         // Get the title of the homepage, should be 'OWASP Juice Shop'
-        expect(browser.getTitle()).to.equal('OWASP Juice Shop', 'Title of the homepage should be correct');
+        expect(browser.getTitle()).to.equal('OWASP Juice Shop');
 
         // Click the 'About Us' navigation link
         $('button*=About Us').click();
